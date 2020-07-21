@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     private Thread recordingThread = null;
     private boolean isRecording = false;
 
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
