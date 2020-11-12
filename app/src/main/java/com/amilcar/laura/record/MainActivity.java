@@ -27,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
     private boolean isRecording = false;
 
     
+    public int getFormartoAudio(){
+        return RECORDER_AUDIO_ENCODING;
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
